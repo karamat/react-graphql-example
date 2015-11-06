@@ -11,7 +11,7 @@
     "start": "npm run watch-js & npm run dev-server & npm run server",
     "build": "npm run clean && ./node_modules/.bin/babel src -d lib --experimental"
   },
-  "author": "Karamat Ullah <karamat.ullah@kwanso.com>",
+  "author": "Karamat Ullah <karamatullah46@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "babel": "5.8.21",
