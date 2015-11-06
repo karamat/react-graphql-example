@@ -1,0 +1,7 @@
+curl -XPOST -H "Content-Type:application/graphql"  -d '{ users {id,name}}' http://localhost:3000/graphql
+
+curl -XPOST -H "Content-Type:application/graphql"  -d '{ user(id:5,name: "Riya") {id, _id, name}}' http://localhost:3000/graphql
+
+curl -XPOST -H "Content-Type:application/graphql"  -d '{ stories {text,author{id,name}}}' http://localhost:3000/graphql
+
+curl -XPOST -H "Content-Type:application/graphql"  -d '{ user(id: 1) {id,name,stories} }' http://localhost:3000/graphql
